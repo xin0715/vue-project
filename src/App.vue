@@ -6,6 +6,13 @@
 </template>
 
 <style scoped lang="scss">
+ul {
+  padding: unset;
+}
+li {
+  list-style: none;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
