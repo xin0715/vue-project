@@ -16,3 +16,12 @@ import HomeBanner from "./components/HomeBanner.vue";
   <!-- <HomeHot /> -->
   <!-- <homeProduct /> -->
 </template>
+
+
+<style scoped lang='scss'>
+
+.container {
+  position: relative;
+}
+  
+</style>
