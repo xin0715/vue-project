@@ -3,6 +3,7 @@ import { useCategoryStore } from "@/stores/category";
 const categoryStore = useCategoryStore();
 </script>
 
+
 <template>
   <div class="home-category">
     <ul class="menu">
