@@ -32,7 +32,13 @@ const router = createRouter({
       path: '/login',
       component: Login
     },
-  ]
+  ],
+  scrollBehavior() {
+    //url切換自動滾動到頁面上方
+    return {
+      top: 0
+    }
+  }
 })
 
 export default router
