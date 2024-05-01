@@ -1,10 +1,14 @@
 <script setup>
 import {ref} from 'vue';
+import {loginAPI} from '@/apis/user.js';
+import { ElMessage } from 'element-plus'
+import 'element-plus/theme-chalk/el-message.css'
+import { useRoute } from 'vue-router';
 
 // 表單
 const form =ref({
     account:'',
-    pwd:'',
+    password:'',
     agree:true
 })
 // 規則
@@ -12,7 +16,7 @@ const rules ={
     account:[
         {required:true,message:'用戶名不為空',trigger:'blur'}
     ],
-    pwd:[
+    password:[
         {required:true,message:'密碼不為空',trigger:'blur'},
         {min:6,max:14,required:true,message:'密碼長度為6-14',trigger:'blur'}
     ],
@@ -25,11 +29,19 @@ const rules ={
 }
 // 取得form做統一驗證
 const formRef = ref(null)
+const router = useRoute()
 const doLogin = ()=>{
-    formRef.value.validate((valid)=>{
+    const{account,password} = form.value
+    formRef.value.validate(async(valid)=>{
         console.log(valid);
         if(valid){
             // do login
+           const res =  await loginAPI({account,password})
+           console.log(res);
+             // 1. 提示用户
+      ElMessage({ type: 'success', message: '登录成功' })
+      // 2. 跳转首页
+      router.replace({ path: '/' })
         }
         
     })
@@ -63,8 +75,8 @@ const doLogin = ()=>{
               <el-form-item  prop="account" label="账户">
                 <el-input v-model="form.account"/>
               </el-form-item>
-              <el-form-item prop="pwd" label="密码">
-                <el-input v-model="form.pwd"/>
+              <el-form-item prop="password" label="密码">
+                <el-input v-model="form.password"/>
               </el-form-item>
               <el-form-item prop="agree" label-width="22px">
                 <el-checkbox  size="large" v-model="form.agree">
