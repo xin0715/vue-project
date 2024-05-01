@@ -1,5 +1,21 @@
 <script setup>
+import {ref} from 'vue';
 
+// 表單
+const form =ref({
+    account:'',
+    pwd:'',
+})
+// 規則
+const rules ={
+    account:[
+        {required:true,message:'用戶名不為空',trigger:'blur'}
+    ],
+    pwd:[
+        {required:true,message:'密碼不為空',trigger:'blur'},
+        {min:6,max:14,required:true,message:'密碼長度為6-14',trigger:'blur'}
+    ]
+}
 </script>
 
 
@@ -24,13 +40,13 @@
         </nav>
         <div class="account-box">
           <div class="form">
-            <el-form label-position="right" label-width="60px"
+            <el-form :model="form" :rules="rules" label-position="right" label-width="60px"
               status-icon>
-              <el-form-item  label="账户">
-                <el-input/>
+              <el-form-item  prop="account" label="账户">
+                <el-input v-model="form.account"/>
               </el-form-item>
-              <el-form-item label="密码">
-                <el-input/>
+              <el-form-item prop="pwd" label="密码">
+                <el-input v-model="form.pwd"/>
               </el-form-item>
               <el-form-item label-width="22px">
                 <el-checkbox  size="large">
