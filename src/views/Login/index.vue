@@ -5,6 +5,7 @@ import {ref} from 'vue';
 const form =ref({
     account:'',
     pwd:'',
+    agree:true
 })
 // 規則
 const rules ={
@@ -14,7 +15,13 @@ const rules ={
     pwd:[
         {required:true,message:'密碼不為空',trigger:'blur'},
         {min:6,max:14,required:true,message:'密碼長度為6-14',trigger:'blur'}
-    ]
+    ],
+    agree:[{
+        validator:(rule,value,callback)=>{
+            //自定義邏輯
+            return value ? callback() : new Error('請先同意協議')
+        }
+    }]
 }
 </script>
 
@@ -48,8 +55,8 @@ const rules ={
               <el-form-item prop="pwd" label="密码">
                 <el-input v-model="form.pwd"/>
               </el-form-item>
-              <el-form-item label-width="22px">
-                <el-checkbox  size="large">
+              <el-form-item prop="agree" label-width="22px">
+                <el-checkbox  size="large" v-model="form.agree">
                   我已同意隐私条款和服务条款
                 </el-checkbox>
               </el-form-item>
