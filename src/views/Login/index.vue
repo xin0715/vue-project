@@ -1,14 +1,15 @@
 <script setup>
 import {ref} from 'vue';
-import {loginAPI} from '@/apis/user.js';
+// import {loginAPI} from '@/apis/user.js';
 import { ElMessage } from 'element-plus'
 import 'element-plus/theme-chalk/el-message.css'
-import { useRoute } from 'vue-router';
-
+import { useRouter } from 'vue-router';
+import { useUserStore } from '@/stores/user';
+const useStore =useUserStore()
 // 表單
 const form =ref({
-    account:'',
-    password:'',
+    account:'demo',
+    password:'hm#qd@23!',
     agree:true
 })
 // 規則
@@ -29,22 +30,21 @@ const rules ={
 }
 // 取得form做統一驗證
 const formRef = ref(null)
-const router = useRoute()
-const doLogin = ()=>{
-    const{account,password} = form.value
-    formRef.value.validate(async(valid)=>{
-        console.log(valid);
-        if(valid){
-            // do login
-           const res =  await loginAPI({account,password})
-           console.log(res);
-             // 1. 提示用户
+const router = useRouter()
+const doLogin = () => {
+  const { account, password } = form.value
+  formRef.value.validate(async (valid) => {
+    if (valid) {
+      // do login
+      await useStore.getUserInfo({ account, password })
+      //  const res =  await loginAPI({account,password})
+      // 1. 提示用户
       ElMessage({ type: 'success', message: '登录成功' })
       // 2. 跳转首页
       router.replace({ path: '/' })
-        }
-        
-    })
+    }
+
+  })
 }
 </script>
 
