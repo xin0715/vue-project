@@ -1,0 +1,368 @@
+{
+    "msg": "操作成功",
+    "result": {
+        "counts": 57421,
+        "pageSize": 5,
+        "pages": 11485,
+        "page": 1,
+        "items": [
+            {
+                "id": "1792110176831315969",
+                "createTime": "2024-05-19 16:28:57",
+                "payType": 1,
+                "orderState": 1,
+                "payLatestTime": "2024-05-19 16:58:57",
+                "postFee": 7.00,
+                "payMoney": 185.00,
+                "totalMoney": 178.00,
+                "totalNum": 2,
+                "skus": [
+                    {
+                        "id": "1792110176852287489",
+                        "spuId": "4003949",
+                        "name": "复古文艺宝宝格纹短袖衬衫73-110cm",
+                        "quantity": 2,
+                        "image": "https://yanxuan-item.nosdn.127.net/ca17e384dc1c005c24c06e1abfde6ab4.jpg",
+                        "realPay": 89.00,
+                        "curPrice": 89.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "73(建议6-9个月)"
+                            },
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "黄色格纹"
+                            }
+                        ],
+                        "attrsText": "尺码:73(建议6-9个月) 颜色:黄色格纹 "
+                    }
+                ],
+                "payChannel": 1,
+                "countdown": -1
+            },
+            {
+                "id": "1792104339165454337",
+                "createTime": "2024-05-19 16:05:45",
+                "payType": 1,
+                "orderState": 1,
+                "payLatestTime": "2024-05-19 16:35:45",
+                "postFee": 9.00,
+                "payMoney": 829.00,
+                "totalMoney": 820.00,
+                "totalNum": 6,
+                "skus": [
+                    {
+                        "id": "1792104339215785985",
+                        "spuId": "3987192",
+                        "name": "PC膜拉链拉杆箱系列（17/20/24/28寸）",
+                        "quantity": 1,
+                        "image": "https://yanxuan-item.nosdn.127.net/8e1ee389d18a90fa00f338dc8534587a.png",
+                        "realPay": 275.00,
+                        "curPrice": 275.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "尺寸",
+                                "propertyValueName": "26寸"
+                            },
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "钢琴白"
+                            }
+                        ],
+                        "attrsText": "尺寸:26寸 颜色:钢琴白 "
+                    },
+                    {
+                        "id": "1792104339224174593",
+                        "spuId": "4001231",
+                        "name": "2021春季新品，宝宝四季连体哈衣59-90cm",
+                        "quantity": 1,
+                        "image": "https://yanxuan-item.nosdn.127.net/11fdc566c7183e77bb36913dc79c57e4.jpg",
+                        "realPay": 55.00,
+                        "curPrice": 55.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "59cm（建议0-3个月）"
+                            },
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "大吉大利（和尚款）"
+                            }
+                        ],
+                        "attrsText": "尺码:59cm（建议0-3个月） 颜色:大吉大利（和尚款） "
+                    },
+                    {
+                        "id": "1792104339232563202",
+                        "spuId": "3994468",
+                        "name": "舒适软弹运动夹脚户外拖鞋",
+                        "quantity": 1,
+                        "image": "https://yanxuan-item.nosdn.127.net/f81a140311ecc1a03ef992b9d3a8ea0b.png",
+                        "realPay": 49.00,
+                        "curPrice": 49.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "西瓜红"
+                            },
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "女S"
+                            }
+                        ],
+                        "attrsText": "颜色:西瓜红 尺码:女S "
+                    },
+                    {
+                        "id": "1792104339240951809",
+                        "spuId": "4004345",
+                        "name": "网易味央黑猪去骨蹄膀500g*1袋",
+                        "quantity": 1,
+                        "image": "https://yanxuan-item.nosdn.127.net/45a40a1db47c126a421953b45fa25674.jpg",
+                        "realPay": 65.00,
+                        "curPrice": 65.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "规格",
+                                "propertyValueName": "去骨蹄膀500g*1袋"
+                            }
+                        ],
+                        "attrsText": "规格:去骨蹄膀500g*1袋 "
+                    },
+                    {
+                        "id": "1792104339249340417",
+                        "spuId": "4000029",
+                        "name": "五谷丰登好兆头白酒杯壶套装一壶五杯+骰子",
+                        "quantity": 2,
+                        "image": "https://yanxuan-item.nosdn.127.net/a68a4385df27f8664b318364f4cdae08.jpg",
+                        "realPay": 188.00,
+                        "curPrice": 188.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "规格",
+                                "propertyValueName": "五谷丰登白酒杯一套（5杯1壶1骰子）"
+                            }
+                        ],
+                        "attrsText": "规格:五谷丰登白酒杯一套（5杯1壶1骰子） "
+                    }
+                ],
+                "payChannel": 1,
+                "countdown": -1
+            },
+            {
+                "id": "1792096741628354562",
+                "createTime": "2024-05-19 15:35:33",
+                "payType": 1,
+                "orderState": 1,
+                "payLatestTime": "2024-05-19 16:05:34",
+                "postFee": 7.00,
+                "payMoney": 379.90,
+                "totalMoney": 372.90,
+                "totalNum": 4,
+                "skus": [
+                    {
+                        "id": "1792096741687074818",
+                        "spuId": "3994461",
+                        "name": "生态有机棉，儿童百搭高领打底T恤110-160cm",
+                        "quantity": 2,
+                        "image": "https://yanxuan-item.nosdn.127.net/ad3d26f08cf3c492243c0d47c5664e95.png",
+                        "realPay": 89.00,
+                        "curPrice": 89.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "黄蓝条纹"
+                            },
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "110cm"
+                            }
+                        ],
+                        "attrsText": "颜色:黄蓝条纹 尺码:110cm "
+                    },
+                    {
+                        "id": "1792096741699657729",
+                        "spuId": "1147023",
+                        "name": "两带式软木拖鞋",
+                        "quantity": 1,
+                        "image": "https://yanxuan-item.nosdn.127.net/ded4b153a0878527dcee27981c389929.png",
+                        "realPay": 55.90,
+                        "curPrice": 55.90,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "黑色"
+                            },
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "34"
+                            }
+                        ],
+                        "attrsText": "颜色:黑色 尺码:34 "
+                    },
+                    {
+                        "id": "1792096741708046337",
+                        "spuId": "4000434",
+                        "name": "KENROLL室外防滑男女运动拖鞋",
+                        "quantity": 1,
+                        "image": "https://yanxuan-item.nosdn.127.net/f598065789526b53a8a67d7482a2f357.jpg",
+                        "realPay": 139.00,
+                        "curPrice": 139.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "藏青色"
+                            },
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "男L（42-43）"
+                            }
+                        ],
+                        "attrsText": "颜色:藏青色 尺码:男L（42-43） "
+                    }
+                ],
+                "payChannel": 1,
+                "countdown": -1
+            },
+            {
+                "id": "1792091959194853378",
+                "createTime": "2024-05-19 15:16:33",
+                "payType": 1,
+                "orderState": 1,
+                "payLatestTime": "2024-05-19 15:46:33",
+                "postFee": 5.00,
+                "payMoney": 401.00,
+                "totalMoney": 396.00,
+                "totalNum": 4,
+                "skus": [
+                    {
+                        "id": "1792091959245185025",
+                        "spuId": "4005091",
+                        "name": "儿童字母纯棉POLO衫73-130cm",
+                        "quantity": 1,
+                        "image": "https://yanxuan-item.nosdn.127.net/605d71caa460e3c05cb2fd1b2885b9b4.jpg",
+                        "realPay": 99.00,
+                        "curPrice": 99.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "黄白条"
+                            },
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "110cm"
+                            }
+                        ],
+                        "attrsText": "颜色:黄白条 尺码:110cm "
+                    },
+                    {
+                        "id": "1792091959257767937",
+                        "spuId": "4005091",
+                        "name": "儿童字母纯棉POLO衫73-130cm",
+                        "quantity": 1,
+                        "image": "https://yanxuan-item.nosdn.127.net/605d71caa460e3c05cb2fd1b2885b9b4.jpg",
+                        "realPay": 99.00,
+                        "curPrice": 99.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "粉白条"
+                            },
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "73cm"
+                            }
+                        ],
+                        "attrsText": "颜色:粉白条 尺码:73cm "
+                    },
+                    {
+                        "id": "1792091959266156546",
+                        "spuId": "4005091",
+                        "name": "儿童字母纯棉POLO衫73-130cm",
+                        "quantity": 2,
+                        "image": "https://yanxuan-item.nosdn.127.net/605d71caa460e3c05cb2fd1b2885b9b4.jpg",
+                        "realPay": 99.00,
+                        "curPrice": 99.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "绿白条"
+                            },
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "130cm"
+                            }
+                        ],
+                        "attrsText": "颜色:绿白条 尺码:130cm "
+                    }
+                ],
+                "payChannel": 1,
+                "countdown": -1
+            },
+            {
+                "id": "1792086975988408322",
+                "createTime": "2024-05-19 14:56:45",
+                "payType": 1,
+                "orderState": 6,
+                "payLatestTime": "2024-05-19 15:26:45",
+                "postFee": 9.00,
+                "payMoney": 222.00,
+                "totalMoney": 213.00,
+                "totalNum": 3,
+                "skus": [
+                    {
+                        "id": "1792086976009379842",
+                        "spuId": "4000635",
+                        "name": "手握黄金比例意大利进口红酒杯2支装",
+                        "quantity": 2,
+                        "image": "https://yanxuan-item.nosdn.127.net/6cda4b2061779f1e5723e42847f51f62.jpg",
+                        "realPay": 79.00,
+                        "curPrice": 79.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "规格",
+                                "propertyValueName": "经典红酒杯双杯"
+                            }
+                        ],
+                        "attrsText": "规格:经典红酒杯双杯 "
+                    },
+                    {
+                        "id": "1792086976017768449",
+                        "spuId": "4001231",
+                        "name": "2021春季新品，宝宝四季连体哈衣59-90cm",
+                        "quantity": 1,
+                        "image": "https://yanxuan-item.nosdn.127.net/11fdc566c7183e77bb36913dc79c57e4.jpg",
+                        "realPay": 55.00,
+                        "curPrice": 55.00,
+                        "totalMoney": null,
+                        "properties": [
+                            {
+                                "propertyMainName": "尺码",
+                                "propertyValueName": "73cm（建议8-18个月）"
+                            },
+                            {
+                                "propertyMainName": "颜色",
+                                "propertyValueName": "大吉大利（和尚款）"
+                            }
+                        ],
+                        "attrsText": "尺码:73cm（建议8-18个月） 颜色:大吉大利（和尚款） "
+                    }
+                ],
+                "payChannel": 1,
+                "countdown": -1
+            }
+        ]
+    }
+}
