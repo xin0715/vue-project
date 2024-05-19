@@ -110,6 +110,7 @@
       })
   
       const clickSpecs = (item, val) => {
+        console.log(val);
         if (val.disabled) return false
         // 选中与取消选中逻辑
         if (val.selected) {
