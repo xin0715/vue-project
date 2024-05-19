@@ -10,6 +10,16 @@
                 val.name
             }}</span>
           </template>
+          <!-- <template v-for="val in item.values" :key="val.name">
+          <img v-if="val.picture" 
+            @click="clickSpecs(item, val)" 
+            :class="{ selected: val.selected }" 
+            :src="val.picture"
+            :title="val.name">
+          <span v-else 
+            @click="clickSpecs(val)" 
+            :class="{ selected: val.selected }">{{ val.name }}</span>
+        </template> -->
         </dd>
       </dl>
     </div>
@@ -148,6 +158,7 @@
   </script>
   
 <style scoped lang="scss">
+
   @mixin sku-state-mixin {
     border: 1px solid #e4e4e4;
     margin-right: 10px;
