@@ -21,6 +21,16 @@ export default defineConfig({
       ],
     }),
   ],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://pcapi-xiaotuxian-front-devtest.itheima.net', // 替换为你的实际 API 地址
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '') // 确保路径重写符合你的需求
+      }
+    }
+  },
+  base: '/vue-project/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
